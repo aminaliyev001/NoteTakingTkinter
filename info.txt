@@ -1,0 +1,21 @@
+Functionalities:
+-Add a New Subject: Allows users to create a new subject for note-taking.
+-Edit Existing Subject: Users can rename any existing subject.
+-Add Notes: Under each subject, users can create multiple notes, allowing them to segregate information.
+-Update Notes: Existing notes can be modified and updated.
+-Automatic Date and Time Stamping: Each note has an automatic timestamp for its creation date and the last modified date.
+-Character Count: For every note, users can see the number of characters in it.
+-Visual Indicators: Uses images and user-friendly GUI elements to enhance user experience.
+-Export to Word: Users can export a note to a .docx format, allowing them to open and edit it in Microsoft Word or any other word processor that supports the .docx format.
+-Delete Subject: Users can delete an entire subject, along with all the notes under it.
+
+Libraries Used:
+
+-tkinter: For building the graphical user interface.
+-json: To save and retrieve data in JSON format.
+-datetime: To fetch the current date and time for timestamping notes.
+-PIL (Pillow): An imaging library used for handling and displaying images in the app.
+-python-docx: To create and update .docx files
+LOGIN:
+username: user
+password: 1234
